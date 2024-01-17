@@ -22,3 +22,20 @@
   padding: 0 16px;
   outline-color: var(--cor-principal);
 }
+
+@media (max-width: 768px) {
+  .form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btnPesquisar{
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+    height: 30px;
+  }
+ 
+}
